@@ -12,10 +12,42 @@
     display: flex;
     flex-direction:column;
     width: 50vw;
-    background-color: pink;
+   
     
 }
 
 #text{
     text-align: center;
+}
+
+body{
+    background-color: yellow;
+}
+
+
+#enter-date{
+    border: solid;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#lucky-number{
+    border: solid;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#check{
+    border: solid;
+    padding: 1rem;
+    border-radius: 1rem;
+
+    margin-top: 2rem;
+    
+}
+
+#text{
+    margin-top: 4rem;
+    font-size: larger;
+    font-weight: bolder;
 }
