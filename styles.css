@@ -51,3 +51,15 @@ body{
     font-size: larger;
     font-weight: bolder;
 }
+
+.social-list{
+    list-style: none;
+}
+
+.social{
+    display: inline;
+}
+
+.footer{
+    background-color: orangered;
+}
