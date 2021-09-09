@@ -2,6 +2,8 @@ const birthdate = document.querySelector("#enter-date");
 const luckynumber = document.querySelector("#lucky-number");
 const output = document.querySelector("#text");
 const button = document.querySelector("#check");
+
+alert("This app is not storing any kind of data")
 var sum = 0;
 button.addEventListener("click", function clickbutton () {
     var newdate = Number(birthdate.value.replaceAll("-",""));
