@@ -22,6 +22,7 @@
 
 body{
     background-color: yellow;
+    margin: 0;
 }
 
 
@@ -52,14 +53,43 @@ body{
     font-weight: bolder;
 }
 
-.social-list{
-    list-style: none;
+.social{
+    display:inline;
+    padding:2rem;
+    padding: 0.5rem;
+   
 }
 
-.social{
-    display: inline;
+.social-list{
+    text-align:center;
+    margin:auto;
+    padding-inline-start:0;
 }
+
 
 .footer{
-    background-color: orangered;
+    background-color:rgb(255, 7, 234);
+    padding:1.5rem 0;
+    border-radius:1rem;
 }
+
+.footer .link{
+    color:white;
+}
+
+.connect{
+    text-align:center;
+    color:white;
+}
+
+.link{
+    text-decoration: none;
+}
+
+
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    
+ }
