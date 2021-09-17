@@ -1,1 +1,1 @@
-This app tells if your birthday is lucky or not based on your lucky number.
+This Vanilla JS app tells if your birthday is lucky or not based on your lucky number.
